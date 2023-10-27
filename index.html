@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link href="./style.css" rel="stylesheet">
+    <title>VantageBridge</title>
+</head>
+
+<body>
+    <header class="hero-section">
+        <div class="hero-text">
+            <img src="./img/icon.svg" style="height: clamp(10rem, 2vw, 10rem); margin-bottom: 10px;" draggable="false"
+                alt="VantageBridge Logo" id="logo">
+            <br>
+            <br>
+            <p style="font-family: Font-Regular; margin-bottom: 0px; color: #FFFFFF;">Your Goals, Our Bridge, Your
+                Advantage
+                <br>
+                <br>
+                <a class="btn btn-primary" href="mailto:vantagebridge@protonmail.com">Email Us</a>
+                <br>
+                <br>
+            <p id="copyright-text">&copy; VantageBridge Consulting <span id="footer-year">2023</span></p>
+            <script>
+                newDate = new Date();
+                document.getElementById("footer-year").innerHTML = newDate.getFullYear();
+            </script>
+            <script>
+                document.addEventListener('contextmenu', function (e) {
+                    e.preventDefault();
+                });
+            </script>
+        </div>
+    </header>
+
+    <div class="background-container"></div>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+
+</body>
+
+</html>
