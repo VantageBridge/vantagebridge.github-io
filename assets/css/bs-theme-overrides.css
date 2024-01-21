@@ -26,6 +26,15 @@
   --bs-dark-border-subtle: #999999;
   --bs-body-bg: #000000;
   --bs-body-bg-rgb: 0,0,0;
+  --bs-border-width: 3px;
+  --bs-focus-ring-width: 0.25rem;
+  --bs-focus-ring-opacity: 1;
+  --bs-focus-ring-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+}
+
+.form-control, .li {
+  box-shadow: none !important;
+  outline: none !important;
 }
 
 .btn-primary {
@@ -183,3 +192,47 @@
   --bs-btn-disabled-border-color: #000000;
 }
 
+.navbar-dark, .navbar[data-bs-theme="dark"] {
+  --bs-navbar-color: rgba(255, 255, 255, 0.5) !important;
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+  --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.5);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#mainNav {
+  border-bottom: 3px solid rgba(255,255,255,.5);
+  transition: all .2s;
+  color: #808080 !important;
+}
+
+hr {
+  opacity: 0.5;
+  border-top: none;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #808080 !important;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #FFFFFF !important;
+}
+
+.bs-icon {
+  font-size: inherit !important;
+}
+
+.navbar-brand {
+  font-size: inherit !important;
+}
+
+.navbar {
+  --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+  --bs-navbar-toggler-transition: box-shadow 0.2s ease-in-out;
+}
