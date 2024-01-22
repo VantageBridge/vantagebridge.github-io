@@ -6,7 +6,6 @@
 }
 
 html {
-  cursor: url('assets/img/cursor.png'), auto;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -23,4 +22,17 @@ body::-webkit-scrollbar {
 html {
   scrollbar-width: none;
   background-color: #000000;
+}
+
+h3 {
+  display: block;
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  height: 24px;
+  width: max-content;
 }
