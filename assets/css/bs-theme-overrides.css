@@ -26,7 +26,7 @@
   --bs-dark-border-subtle: #999999;
   --bs-body-bg: #000000;
   --bs-body-bg-rgb: 0,0,0;
-  --bs-border-width: 3px;
+  --bs-border-width: 4px;
   --bs-focus-ring-width: 0.25rem;
   --bs-focus-ring-opacity: 1;
   --bs-focus-ring-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
@@ -204,7 +204,7 @@
 }
 
 #mainNav {
-  border-bottom: 3px solid rgba(255,255,255,.5);
+  border-bottom: 4px solid rgba(255,255,255,.5);
   transition: all .2s;
   color: #808080 !important;
 }
@@ -235,4 +235,8 @@ a:hover {
 .navbar {
   --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
   --bs-navbar-toggler-transition: box-shadow 0.2s ease-in-out;
+}
+
+.navbar-toggler {
+  color: #FFFFFF
 }
